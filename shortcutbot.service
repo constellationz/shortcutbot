@@ -1,0 +1,15 @@
+[Unit]
+Description=Shortcut bot
+After=network.target
+
+[Service]
+User=shortcutbot
+WorkingDirectory=/home/shortcutbot/shortcutbot
+ExecStart=/bin/bash -c 'source /home/shortcutbot/shortcutbot/.env && /home/shortcutbot/shortcutbot/run.sh'
+Restart=always
+RestartSec=5
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
