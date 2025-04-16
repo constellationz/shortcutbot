@@ -11,7 +11,7 @@ apt-get install git python3 python3-pip python3-venv -y
 adduser shortcutbot
 login shortcutbot
 git clone https://git.tylerlab.org/tyler/shortcutbot.git
-cd shortcutbut
+cd shortcutbot
 ./setup.sh
 ```
 
@@ -38,7 +38,8 @@ start)
 3. Install the systemd service with this command:
 
 ```bash
-sudo install /etc/systemd/system/ shortcutbot.service
+su # Log in as root
+install shortcutbot.service /etc/systemd/system/
 ```
 
 4. Start the bot and view the logs like so:
