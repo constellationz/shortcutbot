@@ -1,6 +1,6 @@
 # Bash shortcut bot
 
-A Discord bot that lets you set up simple bash shortcuts
+A Discord bot that lets you run simple bash shortcuts on your server.
 
 ## Install
 
@@ -17,11 +17,16 @@ cd shortcutbut
 
 2. Set up the `.env` file and `do.sh` file.
 
+You will need to add your bot's app id, your bot's token, and the IDs of the users who should be able to run commands.
+
 ```
 # env
 APP_ID="<your app id>"
 BOT_TOKEN="<your bot token>"
+OWNER_IDS="1234567890,1234567890,1234567890"
 ```
+
+Making a shortcut is as simple as writing some Bash:
 
 ```bash
 # do.sh

@@ -15,7 +15,6 @@ perm_int = '116800'
 # Environment variables
 app_id = str(os.getenv('APP_ID'))
 bot_token = str(os.getenv('BOT_TOKEN'))
-timeout = int(os.getenv('TIMEOUT') or 10)
 
 # Get owners
 owners: list[int] = []
