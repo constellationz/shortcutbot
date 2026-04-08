@@ -1,3 +1,5 @@
+This repository has moved to [codeberg.org/t51820/shortcutbot](https://codeberg.org/t51820/shortcutbot)
+
 # Bash shortcut bot
 
 A Discord bot that lets you run simple bash shortcuts on your server.
@@ -10,7 +12,7 @@ A Discord bot that lets you run simple bash shortcuts on your server.
 apt-get install git python3 python3-pip python3-venv -y
 adduser shortcutbot
 login shortcutbot
-git clone https://git.tylerlab.org/tyler/shortcutbot.git
+git clone https://github.com/constellationz/shortcutbot.git
 cd shortcutbot
 ./setup.sh
 ```
